@@ -34,7 +34,7 @@ namespace VoiceAssistant.Server.Server
 
         public Task Start()
         {
-            _logger.Log($"Listening {_host}:{_port}...");
+            _logger.Log($"Listening on {_host}:{_port}...");
             return _server.StartAsync();
         }
 
